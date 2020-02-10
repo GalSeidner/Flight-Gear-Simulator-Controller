@@ -1,4 +1,4 @@
-## Part 1/2 - Advanced Programming 1 Course
+## Part 1/2 - Advanced Programming 1 Course project
 __Authors__
 * Omer Mokady
 * Gal Seidner
