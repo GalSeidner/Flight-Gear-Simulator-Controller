@@ -28,7 +28,7 @@ In the server side we recieved and maintained flight data given to us from the s
 
 In the client side we updated the simulator based on the instructions found in the given file.
 
-Both sockets and the data manegment runs along the program side by side using multy threading and singelton design pattern.
+Both sockets and the data manegment runs along the program side by side using multi-threading and singelton design pattern.
 
 We also implemented Command pattern to controll all possible commands, and the composite design pattern to maintain the parser that runs the whole flow of the program. 
 #
@@ -51,7 +51,7 @@ __How to use it__
 
 If you want to use our code to run the simulator, you need to follow the instructions below:
 
-**NOTICE - our code supports multy threading, so if you are working with CLion IDE, you'll need to add the line "set(CMAKE_CXX_FLAGS -pthread)" into the CMakeList.txt, outherwise it won't work!**
+**NOTICE - our code supports multi-threading, so if you are working with CLion IDE, you'll need to add the line "set(CMAKE_CXX_FLAGS -pthread)" into the CMakeList.txt, outherwise it won't work!**
 1. you need to download the cpp and header files.
 
 2. Save the txt file described under "Needed files" in the CmakeFiles.
